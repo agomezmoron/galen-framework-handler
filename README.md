@@ -4,7 +4,7 @@ Handler to work with Galen Framework adding some extra funcitonalities by decora
 
 The handler also provides a variable called 
 
-[![NPM][galen-framework-handler]][galen-framework-handler-url]
+[![NPM][galen-framework-handler-icon]][galen-framework-handler-url]
 
 ## Install
 
@@ -41,4 +41,5 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-[galen-framework-handlerurl]: https://npmjs.org/package/galen-framework-handler
+[galen-framework-handler-icon]: https://nodei.co/npm/galen-framework-handler.png
+[galen-framework-handler-url]: https://npmjs.org/package/galen-framework-handler
