@@ -8,8 +8,11 @@ The handler also provides a variable called
 
 ## Install
 
+First of all you need to install Galen Framework globally:
 
-Installing using [NPM](https://www.npmjs.com):
+`sudo npm install -g galenframework-cli`
+
+Then, install the handler using [NPM](https://www.npmjs.com):
 
 `npm install  galen-framework-handler  --save`
 
