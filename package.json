@@ -1,0 +1,37 @@
+{
+  "name": "galen-framework-handler",
+  "description": "Galen Framework wrapper providing some extra funcitonalities like registered devices.",
+  "version": "0.0.2",
+  "author": {
+    "name": "Alejandro Gomez",
+    "email": "agommor@gmail.com",
+    "url": "http://github.com/agomezmoron"
+  },
+  "bugs": {
+    "url": "https://github.com/agomezmoron/galen-framework-handler/issues"
+  },
+  "dependencies": {
+    "galenframework-cli": "^2.3.2"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-concat": "^2.6.1"
+  },
+  "engines": {
+    "node": ">=5.5.0"
+  },
+  "homepage": "https://github.com/agomezmoron/galen-framework-handler",
+  "keywords": [
+    "galen",
+    "galen framework",
+    "responsive",
+    "testing"
+  ],
+  "license": "MIT",
+  "main": "dist/galen-framework-handler.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agomezmoron/galen-framework-handler.git"
+  },
+  "scripts": {}
+}
