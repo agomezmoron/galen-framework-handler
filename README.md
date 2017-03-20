@@ -16,8 +16,27 @@ Then, install the handler using [NPM](https://www.npmjs.com):
 
 `npm install  galen-framework-handler  --save`
 
-## Examples
+## Why this Galen Framework Handler
 
+This handler provides a decoration of some Galen Framework functions like *forAll* one.
+ 
+It also provides a set of pre-configured devices with the breakpoints based on [Bootstrap's](http://getbootstrap.com/) breakpoints.
+
+* **mobile:** 768px
+* **phablet:** 959px
+* **tablet:** 959px
+* **desktop:** 1200px
+
+Based on those types, we have a set of defined devices in the [browsers.js file](src/browsers.js), declared in a variable called *devices*.
+
+Also two more global variables are defined:
+
+* **config**: JSON with all the configuration needed for your tests. (ex: config.baseURL = "http://google.com").
+* **devicesToTest:** Here we define all the devices to be tested. By default, *devicesToTest = devices*.
+
+## Example
+
+If in your project you have the library loaded, using it it's very easy:
 
 
 ## License
