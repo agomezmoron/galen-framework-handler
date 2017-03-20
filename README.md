@@ -38,6 +38,44 @@ Also two more global variables are defined:
 
 If in your project you have the library loaded, using it it's very easy:
 
+**config.js**
+
+```javascript
+
+/** Overriding the config variable defined in the galen-framework-handler **/
+config = {
+    baseURL: "https://www.google.com"
+};
+
+/** Overriding the devices to test variable defined in the galen-framework-handler **/
+devicesToTest = {
+    iphone6: devices.iphone6,
+    desktop: devices.desktop1024
+};
+```
+
+
+**example.test.js**
+
+```javascript
+
+// important, commons should be loaded here
+load('THE_PATH_TO_YORR_NODE_MODULES/node_modules/galen-framework-handler/dist/galen-framework-handler.js');
+
+load('THE_PATH_TO_YOUR_CUSTOM_CONFIG_FILE/config.js');
+
+forAll(devicesToTest, function (device) {
+    test("Testing on ${deviceName}", function (device) {
+        // here goes a test code
+        var driver = createDriver(config.baseURL,
+            device.size);
+        // here is the "key" of the galen-framework testing
+        checkLayout(driver, "specs/example.test.gspec", device.tags);
+        driver.close();
+        driver.quit();
+    });
+});
+```
 
 ## License
 
