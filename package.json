@@ -1,7 +1,7 @@
 {
   "name": "galen-framework-handler",
   "description": "Galen Framework wrapper providing some extra funcitonalities like registered devices.",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "author": {
     "name": "Alejandro Gomez",
     "email": "agommor@gmail.com",
