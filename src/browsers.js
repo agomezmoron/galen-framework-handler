@@ -27,7 +27,7 @@
 var deviceMaxWidths = {
     mobile: 768,
     phablet: 959,
-    tablet: 2048,
+    tablet: 959,
     desktop: 4096
 };
 
