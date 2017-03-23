@@ -28,7 +28,7 @@ var deviceMaxWidths = {
     mobile: 768,
     phablet: 959,
     tablet: 959,
-    desktop: 1200
+    desktop: 4096
 };
 
 /**
@@ -52,7 +52,7 @@ var deviceTypes = {
  * They were extracted from http://mydevice.io/devices/
  */
 var devices = {
-    // mobiles
+    // Smart phones:
     iphone4: {
         deviceName: "iPhone4",
         size: "480x320",
@@ -66,6 +66,16 @@ var devices = {
     iphone6: {
         deviceName: "iphone6",
         size: "667x375",
+        tags: [deviceTypes.mobile]
+    },    
+    iphone7: {
+        deviceName: "iphone7",
+        size: "667x375",
+        tags: [deviceTypes.mobile]
+    },
+    LGG5:{
+        deviceName: "LG G5",
+        size: "360x640",
         tags: [deviceTypes.mobile]
     },
     LGG4:{
@@ -100,6 +110,16 @@ var devices = {
     },
     SamsungGalaxyNote2:{
         deviceName: "Samsung Galaxy Note 2",
+        size: "360x640",
+        tags: [deviceTypes.mobile]
+    },
+    SamsungGalaxyS7:{
+        deviceName: "Samsung Galaxy S7",
+        size: "360x640",
+        tags: [deviceTypes.mobile]
+    },
+    SamsungGalaxyS6:{
+        deviceName: "Samsung Galaxy S6",
         size: "360x640",
         tags: [deviceTypes.mobile]
     },
@@ -141,6 +161,11 @@ var devices = {
     SamsungGalaxyNexus:{
         deviceName: "Samsung Galaxy Nexus",
         size: "360x600",
+        tags: [deviceTypes.mobile]
+    },
+    MicrosoftLumia1520:{
+        deviceName: "Microsoft Lumia 1520",
+        size: "432x768",
         tags: [deviceTypes.mobile]
     },
     MicrosoftLumia1020:{
@@ -268,7 +293,7 @@ var devices = {
         size: "320x480",
         tags: [deviceTypes.mobile]
     },
-    // phablets
+    // Phablets:
     iphone6Plus: {
         deviceName: "iphone6Plus",
         size: "736x414",
@@ -294,7 +319,7 @@ var devices = {
         size: "360x640",
         tags: [deviceTypes.phablet]
     },
-    // tablets
+    // Tablets:
     ipadPro: {
         deviceName: "Apple iPad Pro",
         size: "1024x1366",
@@ -460,10 +485,15 @@ var devices = {
         size: "600x1024",
         tags: [deviceTypes.tablet]
     },
-    // desktops
+    // Desktops:
     desktop1024: {
-        deviceName: "desktop1024",
+        deviceName: "Desktop 1024",
         size: "1024x768",
+        tags: [deviceTypes.desktop]
+    },
+    desktopFHD: {
+        deviceName: "Desktop FHD",
+        size: "1920x1080",
         tags: [deviceTypes.desktop]
     }
 };
