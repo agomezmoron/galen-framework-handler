@@ -491,6 +491,11 @@ var devices = {
         size: "1024x768",
         tags: [deviceTypes.desktop]
     },
+    desktop1440: {
+        deviceName: "Desktop 1440",
+        size: "1440x900",
+        tags: [deviceTypes.desktop]
+    },
     desktopFHD: {
         deviceName: "Desktop FHD",
         size: "1920x1080",
